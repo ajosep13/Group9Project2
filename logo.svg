@@ -1,0 +1,5 @@
+<svg id="logo" class="logo" xmlns="http://www.w3.org/2000/svg">
+<ellipse cx="50" cy="23" rx="10" ry="22" stroke="yellow" stroke-width="2" fill="rgb(240, 218, 18)" />
+<ellipse cx="50" cy="23" rx="22" ry="10" stroke="yellow" stroke-width="2" fill="rgb(240, 218, 18)" />
+<text fill="black" font-size="15" font-family="Gabriola" x="39" y="28">AHV</text>
+</svg>
