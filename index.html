@@ -6,53 +6,72 @@
     </head>
 
     <body>
-        
-
         <!--Menubar-->
-        
-        <div id="navbar"> 
-          
-          <!--To set a simple logo for the website which can be seen in menubar-->  
-          <h1 id="logo"><U>AH & V</U></h1>
+        <div id="navbar">  
+          <!--To set a simple logo for the website which can be seen in menubar. It is created using svg file-->  
+          <img src="logo.svg">
           <!--To set the menu options and ech menu option navigate to a specific part of the webpage(internal linking)-->
             <div id="block">
-                <a href="#">CONTACT</a>  
-                <a href="#">GALLERY</a>           
-                <a href="#">MEMBERS</a>
+                <a href="index.html#contact">CONTACT</a>  
+                <a href="hobbies.html">GALLERY</a>           
+                <a href="members.html">MEMBERS</a>
+                <a href="index.html">HOME</a>
             </div>
         </div>
-
-        
+       
         <!--Cover-->
-
         <!--portion after the menubar with picture and text. When we open the browser it is this portion that opens-->
           <div id="top">
             <div id="topl"></div>
             <div id="topr"></div>
             <div id="capt1"><h3 id="fline">We build your website</h3>
             <p id="sline">"You get an elegant classy website without  any struggle to build it"</p></div>
-            <img id="coverimg" src="pictures/flower1.png">
-            </div>
-          </div>
-        <br><br>
-          <div id="vision">
-            <h3>Our Vision</h3>
+            <img id="coverimg" src="pictures/flower1.png" alt="https://j.17qq.com/article/iifhopojz.html">
+            
+          <!--To state vision-->
+          <div class="vision">
+            <br>
+           <h1>Our Vision</h1>
+           <p id="vis"> "Our vision is to improve the growth of our customers with innovative, unique, and creative Design and Development to achieve high-quality and classy products, 
+             and services that increase value and steady competitive advantage for our clients all around the world. "</p>
           </div>
           
-          <div id="service1">
+          <!--To state services offered. Services are divided in three div tags here-->
+          <div id="service1"></div>
+          <div id="sh1">
             <h3>Build website, blog or combination</h3>
             <p>We can create website for you no matter what your purpose is. 
               We build websites for small and large organization as well as for individuals.
               If you want to start a blog to write your story, product or news, here we are at your service.
             </p>
           </div>
-          <div id="service2">
+          <img src="pictures/service1.png" id="shi1" style="width:100%; height: 100%;margin:auto;" alt="https://yourstory.com/mystory/top-five-pros-cons-custom-web-application">
+          <div id="service2"></div>
+          <div id="sh2">
             <h3>Offers any budget plans</h3>
             <p>Don't worry about your budget, we have plans for every customers no matter what their budget is.</p>
           </div>
-          <div id="service3"><h3>Desktop and mobile friendly applications</h3>
+          <img src="pictures/service2.gif" id="shi2" style="width:100%; height:100%;margin:auto;" alt="https://www.behance.net/gallery/74676213/Crispe-Animation-Reel">
+          <div id="service3"></div>
+          <div id="sh3">
+          <h3>Desktop and mobile friendly applications</h3>
           <p>We have mobile friendly applications so that you can update your website from anywhere.
             You can update using any  with android, IOS or any desktop supporting application.</p></div>
+            <img src="pictures/service3.png" id="shi3" style="width:100%; height:100%;margin:auto;" alt="https://www.snupit.co.za/hermanus/onrus-river/wilson-consulting-web-design-_and_-seo/359492">
+          </div>
+          <!--Contact details of the members-->
+          <div id="contact">
+            <br>
+            <h2>CONTACT</h2>
+            ajosep13@confederationcollege.ca
+            <br>hudehyan@confederationcollege.ca
+            <br>vdarji@confederationcollege.ca
+          </div>
+          
+          <!--Script tag is used to change pictures in the top-->
+          <!--Images used from https://it.cleanpng.com/cleanpng-8atsfn/preview.html ,
+          https://gradinmassage.wordpress.com/lyfts-bantningsmassage-2/ and
+          https://j.17qq.com/article/iifhopojz.html -->
         <script>
           var imageSources = ["pictures/flower2.png", "pictures/flower3.png", "pictures/flower1.png"]
     
